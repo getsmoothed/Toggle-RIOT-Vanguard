@@ -19,9 +19,11 @@ If vanguard isn't installed in "C:\Program Files\Riot Vanguard" for some reason,
 In that case, change this line:
 
 cd /d "C:\Program Files\Riot Vanguard"
+
 To:
 
 cd /d "<desired path>"
+  
 How it works:
 
 The script uses the administrator rights to rename the vgk.sys file to keep it from launching when your computer starts (and vise versa).
@@ -35,9 +37,10 @@ If you don't want the script to auto-restart your computer you have to change th
 Auto-Restart:
 
 set /A FORCE_RESTART = 1
+
 Auto-Restart off:
 
 set /A FORCE_RESTART = 0
-To make your life easier you can make a shortcut to the script, then right-click it --> click on properties --> advanced --> and check the box to run it as an administrator. So whenever you open the shortcut it will automatically start it as an administrator.
 
-If you have an
+
+To make your life easier you can make a shortcut to the script, then right-click it --> click on properties --> advanced --> and check the box to run it as an administrator. So whenever you open the shortcut it will automatically start it as an administrator.
